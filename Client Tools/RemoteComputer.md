@@ -4,14 +4,13 @@ You can find more information on how to install these tools, as well as instruct
 Commands used in the demo to install the client tools in a Linux environment:
 
 ### cfssl:
-  wget -q --show-progress --https-only --timestamping \
-    https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 \
-    https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64
-  
-  chmod +x cfssl_linux-amd64 cfssljson_linux-amd64
-  sudo mv cfssl_linux-amd64 /usr/local/bin/cfssl
-  sudo mv cfssljson_linux-amd64 /usr/local/bin/cfssljson
-  cfssl version
+wget -q --show-progress --https-only --timestamping \
+  https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 \
+  https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64
+chmod +x cfssl_linux-amd64 cfssljson_linux-amd64
+sudo mv cfssl_linux-amd64 /usr/local/bin/cfssl
+sudo mv cfssljson_linux-amd64 /usr/local/bin/cfssljson
+cfssl version
   
 ### If you want to work on an i386 machine, use these commands to install cfssl instead:
   wget -q --show-progress --https-only --timestamping \
