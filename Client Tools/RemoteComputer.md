@@ -7,6 +7,7 @@ Commands used in the demo to install the client tools in a Linux environment:
   wget -q --show-progress --https-only --timestamping \
     https://pkg.cfssl.org/R1.2/cfssl_linux-amd64 \
     https://pkg.cfssl.org/R1.2/cfssljson_linux-amd64
+  
   chmod +x cfssl_linux-amd64 cfssljson_linux-amd64
   sudo mv cfssl_linux-amd64 /usr/local/bin/cfssl
   sudo mv cfssljson_linux-amd64 /usr/local/bin/cfssljson
@@ -16,6 +17,7 @@ Commands used in the demo to install the client tools in a Linux environment:
   wget -q --show-progress --https-only --timestamping \
     https://pkg.cfssl.org/R1.2/cfssl_linux-386 \
     https://pkg.cfssl.org/R1.2/cfssljson_linux-386
+  
   chmod +x cfssl_linux-386 cfssljson_linux-386
   sudo mv cfssl_linux-386 /usr/local/bin/cfssl
   sudo mv cfssljson_linux-386 /usr/local/bin/cfssljson
@@ -23,6 +25,7 @@ Commands used in the demo to install the client tools in a Linux environment:
   
 ### kubectl:
   wget https://storage.googleapis.com/kubernetes-release/release/v1.10.2/bin/linux/amd64/kubectl
+  
   chmod +x kubectl
   sudo mv kubectl /usr/local/bin/
   kubectl version --client  
