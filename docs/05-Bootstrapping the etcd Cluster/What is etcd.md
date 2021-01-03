@@ -7,4 +7,4 @@ You can find more information about etcd in the following locations:
 
 Check out the Kubernetes documentation for more information on managing etcd in the context of a Kubernetes cluster:
 
-https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
+### https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/
