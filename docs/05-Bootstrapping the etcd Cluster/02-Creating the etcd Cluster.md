@@ -13,7 +13,7 @@ sudo cp ca.pem kubernetes-key.pem kubernetes.pem /etc/etcd/
 
 Set up the following environment variables. Be sure you replace all of the <placeholder values> with their corresponding real values:
 ```
-ETCD_NAME=<cloud server hostname>
+ETCD_NAME=<cloud server unique hostname>
 INTERNAL_IP=$(curl http://169.254.169.254/latest/meta-data/local-ipv4)
 INITIAL_CLUSTER=<controller 1 hostname>=https://<controller 1 private ip>:2380,<controller 2 hostname>=https://<controller 2 private ip>:2380
 ```
