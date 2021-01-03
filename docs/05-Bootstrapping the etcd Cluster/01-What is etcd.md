@@ -2,8 +2,8 @@ In this section, we will be setting up an etcd cluster, which is a necessary com
 
 
 You can find more information about etcd in the following locations:
-https://coreos.com/etcd/
-https://github.com/coreos/etcd (this GitHub repository also containes the etcd source code)
+### https://coreos.com/etcd/
+### https://github.com/coreos/etcd (this GitHub repository also containes the etcd source code)
 
 Check out the Kubernetes documentation for more information on managing etcd in the context of a Kubernetes cluster:
 
